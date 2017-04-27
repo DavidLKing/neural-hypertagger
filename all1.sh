@@ -1,0 +1,9 @@
+python2 -u 1feed-forward-tensorflow.py data/train_X.pkl data/val_X.pkl data/train_Y.pkl data/val_Y.pkl 0.001 0.1 &> 1.001.1.log &
+python2 -u 1feed-forward-tensorflow.py data/train_X.pkl data/val_X.pkl data/train_Y.pkl data/val_Y.pkl 0.0001 0.1 &> 1.0001.1.log &
+python2 -u 1feed-forward-tensorflow.py data/train_X.pkl data/val_X.pkl data/train_Y.pkl data/val_Y.pkl 0.00001 0.1 &> 1.00001.1.log &
+python2 -u 1feed-forward-tensorflow.py data/train_X.pkl data/val_X.pkl data/train_Y.pkl data/val_Y.pkl 0.001 0.01 &> 1.001.01.log &
+python2 -u 1feed-forward-tensorflow.py data/train_X.pkl data/val_X.pkl data/train_Y.pkl data/val_Y.pkl 0.0001 0.01 &> 1.0001.01.log &
+python2 -u 1feed-forward-tensorflow.py data/train_X.pkl data/val_X.pkl data/train_Y.pkl data/val_Y.pkl 0.00001 0.01 &> 1.00001.01.log &
+python2 -u 1feed-forward-tensorflow.py data/train_X.pkl data/val_X.pkl data/train_Y.pkl data/val_Y.pkl 0.001 0.001 &> 1.001.001.log &
+python2 -u 1feed-forward-tensorflow.py data/train_X.pkl data/val_X.pkl data/train_Y.pkl data/val_Y.pkl 0.0001 0.001 &> 1.0001.001.log &
+python2 -u 1feed-forward-tensorflow.py data/train_X.pkl data/val_X.pkl data/train_Y.pkl data/val_Y.pkl 0.00001 0.001 &> 1.00001.001.log &
