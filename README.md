@@ -7,6 +7,8 @@ The code was tested using a subset of the ht.feats file. Running it on the full 
 To run the program, first preprocess your data:
 `python2 neural-preprocessor.py vectors.bin cat_embedd.bin inputfile.txt`
 
+The sample data that I used for testing the system can be found [here](http://ling.osu.edu/~king/hypertagger/data).
+
 Currently, `cat_embedd.bin` isn't being used. It's just a place hold. Feel free to point that to any random file on your system. `final_vocab.p` are lemmatized word vectors trained with word2vec. We'll eventually want to train our own, but feel free to used these. You can download those [here](http://ling.osu.edu/~king/hypertagger/final_vocab.p). These were originally trained by Evan Jaffe.
 
 One you have preprocessed data, just run this to evaluate the system accuracy on dev:
