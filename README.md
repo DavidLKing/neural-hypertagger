@@ -20,6 +20,8 @@ and for test:
 
 `python2 1feed-forward-tensorflow.py data/train_X.pkl data/test_X.pkl data/train_Y.pkl data/test_Y.pkl 0.001 0.1`
 
-Note, you can use `feed-forward-tensorflow.py`, `1feed-forward-tensorflow.py`, and `2feed-forward-tensorflow.py` for running a multi-layer perceptron with 0, 1, and 2 hidden layers, respectively. Feel free to alter whatever, but I think the primary concern is getting the sparse one-hot encodings to work.
+The '0.001' is the beta paramenter for the L2 regularization, and the 0.1 is the learning rate for the AdaGrad algorithm.
+
+Note, you can use `feed-forward-tensorflow.py`, `1feed-forward-tensorflow.py`, and `2feed-forward-tensorflow.py` for running a single/multi-layer perceptron with 0, 1, and 2 hidden layers, respectively. Feel free to alter whatever, but I think the primary concern is getting the sparse one-hot encodings to work.
 
 Thanks! And let me know if you have any questions!
